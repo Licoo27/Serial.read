@@ -12,6 +12,7 @@ void loop()
   // put your main code here, to run repeatedly:
   if (Serial.available() > 0)
   {
+    var = 0;
     c = Serial.read();
     while ( c >= 48 && c <= 57)
     {
